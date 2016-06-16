@@ -1,0 +1,83 @@
+html,
+h1{
+    color:black;
+    font-family: "Courier New",courier,monospace;
+}
+body{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:auto
+    background-color:white;
+    background-image:url("music.jpg");
+}
+li{
+    text-decoration: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+
+#navigation a {
+    margin-top: 100px;
+    color: #7b3f00;
+    font-size: 22px;
+    padding: 24px 44px;
+    
+    font-family: fantasy;
+}
+#content{
+margin: 0 auto;
+width: 550px;
+    color: black; 
+    margin-top: 150px; 
+    font-family: fantasy;
+}
+.button {
+    background-color:#7b3f00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+li a:hover{
+background-color:grey;
+}
+.foot{
+    background-color: #222;
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bottom-footer{
+    border-top: 1px solid #b2b2b2;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #b2b2b2;
+
+}
+.footer-nav{
+    text-align: right;
+    list-style: none;
+}
+.footer-nav li{
+    display: inline;
+   
+}
+.footer-nav li:not(:first-child):before
+{
+    content: '|';
+     padding: 0px 10px;
+}
+.footer-nav a{
+    color: #b2b2b2;
+}
+.footer-nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}

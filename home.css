@@ -1,0 +1,36 @@
+html,
+h1{
+    color:black;
+    font-family: "Courier New",courier,monospace;
+}
+body{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:auto
+    background-color:white;
+}
+li{
+    text-decoration: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+#navigation a {
+    margin-top: 100px;
+    color: #7b3f00;
+    font-size: 22px;
+    padding: 24px 44px;    
+}
+#content{
+margin: 0 auto;
+width: 550px;
+    color: black; 
+    margin-top: 150px;  
+}
+li a:hover{
+background-color:grey;
+}
+
+    

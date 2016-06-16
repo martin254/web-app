@@ -1,0 +1,98 @@
+.header{
+	font-size: 27px;
+	font-family: fantasy;
+}
+body{
+	margin: 0 auto;
+	background-image: url("dance3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+.container{
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	background-color: rgba(52,73,94,0.7);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.container img{
+	width: 170px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+input[type="text"],input[type="password"]{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-top: 20px;
+	background-color: #fff;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+
+.btn-login{
+	padding: 15px 30px;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	background-color: #2ECC71;
+	border-bottom: 4px solid #27AE60;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+a{
+	color: #fff;
+	font-size: 18px;
+
+}
+h1{
+	color:black;
+    font: script;
+    text-shadow:1px 1px 1px 3px 3px 5px;
+    text-align: center;
+    font-size: 20px;
+}
+h2{
+	color:black;
+    font-family: "Courier New",courier,monospace;
+    text-align: center;
+}
+.foot{
+    background-color: white;
+    color: brown;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.bottom-footer{
+    border-top: 1px solid #b2b2b2;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: black;
+
+}
+.footer-nav{
+    text-align: right;
+    list-style: none;
+}
+.footer-nav li{
+    display: inline;
+   
+}
+.footer-nav li:not(:first-child):before
+{
+    content: '|';
+     padding: 0px 10px;
+}
+.footer-nav a{
+    color: black;
+    text-decoration: none;
+}
+.footer-nav a:hover{
+    color: purple;
+    text-decoration: none;
+}
